@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F704EB1CB1C61B00593C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F704EA1CB1C61B00593C49 /* main.m */; };
+		05F704EE1CB1C61B00593C49 /* MEMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F704ED1CB1C61B00593C49 /* MEMAppDelegate.m */; };
+		05F704F61CB1C61B00593C49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05F704F51CB1C61B00593C49 /* Assets.xcassets */; };
+		05F704F91CB1C61B00593C49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F704F71CB1C61B00593C49 /* LaunchScreen.storyboard */; };
+		05F705021CB1C67D00593C49 /* MEMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F705011CB1C67D00593C49 /* MEMMenuViewController.m */; };
+		05F705051CB1C76600593C49 /* MEMMenuOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F705041CB1C76600593C49 /* MEMMenuOption.m */; };
+		05F705081CB1C9E600593C49 /* MEMDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F705071CB1C9E600593C49 /* MEMDetailsViewController.m */; };
+		05F7050A1CB1CB6400593C49 /* rickroll.gif in Resources */ = {isa = PBXBuildFile; fileRef = 05F705091CB1CB6400593C49 /* rickroll.gif */; };
+		05F705101CB1CF6600593C49 /* MEMSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7050F1CB1CF6600593C49 /* MEMSolution.m */; };
+		05F705131CB1D15500593C49 /* MEMRickRollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F705121CB1D15500593C49 /* MEMRickRollView.m */; };
+		05F705161CB1DC7600593C49 /* MEMUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F705151CB1DC7600593C49 /* MEMUserInfo.m */; };
+		05F705191CB1E07E00593C49 /* MEMImprovedDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F705181CB1E07E00593C49 /* MEMImprovedDetailsViewController.m */; };
+		05F7051C1CB1E38200593C49 /* MEMUserInfoSyncClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F7051B1CB1E38200593C49 /* MEMUserInfoSyncClient.m */; };
+		4164AB1DB0544DA91BE89DD4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A004CC4616C213875B3CA8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02A004CC4616C213875B3CA8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F704E61CB1C61B00593C49 /* MemoryProblems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryProblems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F704EA1CB1C61B00593C49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05F704EC1CB1C61B00593C49 /* MEMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEMAppDelegate.h; sourceTree = "<group>"; };
+		05F704ED1CB1C61B00593C49 /* MEMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEMAppDelegate.m; sourceTree = "<group>"; };
+		05F704F51CB1C61B00593C49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05F704F81CB1C61B00593C49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05F704FA1CB1C61B00593C49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05F705001CB1C67D00593C49 /* MEMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMMenuViewController.h; sourceTree = "<group>"; };
+		05F705011CB1C67D00593C49 /* MEMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMMenuViewController.m; sourceTree = "<group>"; };
+		05F705031CB1C76600593C49 /* MEMMenuOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMMenuOption.h; sourceTree = "<group>"; };
+		05F705041CB1C76600593C49 /* MEMMenuOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMMenuOption.m; sourceTree = "<group>"; };
+		05F705061CB1C9E600593C49 /* MEMDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMDetailsViewController.h; sourceTree = "<group>"; };
+		05F705071CB1C9E600593C49 /* MEMDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMDetailsViewController.m; sourceTree = "<group>"; };
+		05F705091CB1CB6400593C49 /* rickroll.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rickroll.gif; sourceTree = "<group>"; };
+		05F7050E1CB1CF6600593C49 /* MEMSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMSolution.h; sourceTree = "<group>"; };
+		05F7050F1CB1CF6600593C49 /* MEMSolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMSolution.m; sourceTree = "<group>"; };
+		05F705111CB1D15500593C49 /* MEMRickRollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMRickRollView.h; sourceTree = "<group>"; };
+		05F705121CB1D15500593C49 /* MEMRickRollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMRickRollView.m; sourceTree = "<group>"; };
+		05F705141CB1DC7600593C49 /* MEMUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMUserInfo.h; sourceTree = "<group>"; };
+		05F705151CB1DC7600593C49 /* MEMUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMUserInfo.m; sourceTree = "<group>"; };
+		05F705171CB1E07E00593C49 /* MEMImprovedDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMImprovedDetailsViewController.h; sourceTree = "<group>"; };
+		05F705181CB1E07E00593C49 /* MEMImprovedDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMImprovedDetailsViewController.m; sourceTree = "<group>"; };
+		05F7051A1CB1E38200593C49 /* MEMUserInfoSyncClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEMUserInfoSyncClient.h; sourceTree = "<group>"; };
+		05F7051B1CB1E38200593C49 /* MEMUserInfoSyncClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEMUserInfoSyncClient.m; sourceTree = "<group>"; };
+		73E0FF52D04F683FB2F83082 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		833C81805058E9113698A48B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F704E31CB1C61B00593C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4164AB1DB0544DA91BE89DD4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F704DD1CB1C61B00593C49 = {
+			isa = PBXGroup;
+			children = (
+				05F704E81CB1C61B00593C49 /* MemoryProblems */,
+				05F704E71CB1C61B00593C49 /* Products */,
+				F64FF662910449B291CB7FAF /* Pods */,
+				EDA135DCD996F02582670239 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05F704E71CB1C61B00593C49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F704E61CB1C61B00593C49 /* MemoryProblems.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F704E81CB1C61B00593C49 /* MemoryProblems */ = {
+			isa = PBXGroup;
+			children = (
+				05F705091CB1CB6400593C49 /* rickroll.gif */,
+				05F704EC1CB1C61B00593C49 /* MEMAppDelegate.h */,
+				05F704ED1CB1C61B00593C49 /* MEMAppDelegate.m */,
+				05F705001CB1C67D00593C49 /* MEMMenuViewController.h */,
+				05F705011CB1C67D00593C49 /* MEMMenuViewController.m */,
+				05F704F51CB1C61B00593C49 /* Assets.xcassets */,
+				05F704F71CB1C61B00593C49 /* LaunchScreen.storyboard */,
+				05F704FA1CB1C61B00593C49 /* Info.plist */,
+				05F704E91CB1C61B00593C49 /* Supporting Files */,
+				05F705031CB1C76600593C49 /* MEMMenuOption.h */,
+				05F705041CB1C76600593C49 /* MEMMenuOption.m */,
+				05F7050E1CB1CF6600593C49 /* MEMSolution.h */,
+				05F7050F1CB1CF6600593C49 /* MEMSolution.m */,
+				05F705061CB1C9E600593C49 /* MEMDetailsViewController.h */,
+				05F705071CB1C9E600593C49 /* MEMDetailsViewController.m */,
+				05F705111CB1D15500593C49 /* MEMRickRollView.h */,
+				05F705121CB1D15500593C49 /* MEMRickRollView.m */,
+				05F705141CB1DC7600593C49 /* MEMUserInfo.h */,
+				05F705151CB1DC7600593C49 /* MEMUserInfo.m */,
+				05F705171CB1E07E00593C49 /* MEMImprovedDetailsViewController.h */,
+				05F705181CB1E07E00593C49 /* MEMImprovedDetailsViewController.m */,
+				05F7051A1CB1E38200593C49 /* MEMUserInfoSyncClient.h */,
+				05F7051B1CB1E38200593C49 /* MEMUserInfoSyncClient.m */,
+			);
+			path = MemoryProblems;
+			sourceTree = "<group>";
+		};
+		05F704E91CB1C61B00593C49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F704EA1CB1C61B00593C49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDA135DCD996F02582670239 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A004CC4616C213875B3CA8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F64FF662910449B291CB7FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				833C81805058E9113698A48B /* Pods.debug.xcconfig */,
+				73E0FF52D04F683FB2F83082 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F704E51CB1C61B00593C49 /* MemoryProblems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F704FD1CB1C61B00593C49 /* Build configuration list for PBXNativeTarget "MemoryProblems" */;
+			buildPhases = (
+				D217E68E2C7A09CF20D612AF /* Check Pods Manifest.lock */,
+				05F704E21CB1C61B00593C49 /* Sources */,
+				05F704E31CB1C61B00593C49 /* Frameworks */,
+				05F704E41CB1C61B00593C49 /* Resources */,
+				9C50B2BC0198A62FAE2EA52A /* Embed Pods Frameworks */,
+				5502E6EDD8431EFF469FF6ED /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryProblems;
+			productName = MemoryProblems;
+			productReference = 05F704E61CB1C61B00593C49 /* MemoryProblems.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F704DE1CB1C61B00593C49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MEM;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hotel Tonight";
+				TargetAttributes = {
+					05F704E51CB1C61B00593C49 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 05F704E11CB1C61B00593C49 /* Build configuration list for PBXProject "MemoryProblems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05F704DD1CB1C61B00593C49;
+			productRefGroup = 05F704E71CB1C61B00593C49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F704E51CB1C61B00593C49 /* MemoryProblems */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F704E41CB1C61B00593C49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F704F91CB1C61B00593C49 /* LaunchScreen.storyboard in Resources */,
+				05F7050A1CB1CB6400593C49 /* rickroll.gif in Resources */,
+				05F704F61CB1C61B00593C49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5502E6EDD8431EFF469FF6ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C50B2BC0198A62FAE2EA52A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D217E68E2C7A09CF20D612AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F704E21CB1C61B00593C49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F705021CB1C67D00593C49 /* MEMMenuViewController.m in Sources */,
+				05F704EE1CB1C61B00593C49 /* MEMAppDelegate.m in Sources */,
+				05F705161CB1DC7600593C49 /* MEMUserInfo.m in Sources */,
+				05F705101CB1CF6600593C49 /* MEMSolution.m in Sources */,
+				05F704EB1CB1C61B00593C49 /* main.m in Sources */,
+				05F705191CB1E07E00593C49 /* MEMImprovedDetailsViewController.m in Sources */,
+				05F7051C1CB1E38200593C49 /* MEMUserInfoSyncClient.m in Sources */,
+				05F705081CB1C9E600593C49 /* MEMDetailsViewController.m in Sources */,
+				05F705051CB1C76600593C49 /* MEMMenuOption.m in Sources */,
+				05F705131CB1D15500593C49 /* MEMRickRollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05F704F71CB1C61B00593C49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F704F81CB1C61B00593C49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F704FB1CB1C61B00593C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05F704FC1CB1C61B00593C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F704FE1CB1C61B00593C49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833C81805058E9113698A48B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoryProblems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoteltonight.MemoryProblems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05F704FF1CB1C61B00593C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E0FF52D04F683FB2F83082 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MemoryProblems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoteltonight.MemoryProblems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F704E11CB1C61B00593C49 /* Build configuration list for PBXProject "MemoryProblems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F704FB1CB1C61B00593C49 /* Debug */,
+				05F704FC1CB1C61B00593C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F704FD1CB1C61B00593C49 /* Build configuration list for PBXNativeTarget "MemoryProblems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F704FE1CB1C61B00593C49 /* Debug */,
+				05F704FF1CB1C61B00593C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F704DE1CB1C61B00593C49 /* Project object */;
+}
